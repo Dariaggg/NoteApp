@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace NoteAppUI
 {
     public partial class MainForm1 : Form
@@ -17,5 +18,9 @@ namespace NoteAppUI
             InitializeComponent();
         }
 
+        private void MainForm1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
